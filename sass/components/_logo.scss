@@ -1,0 +1,32 @@
+.main-nav__logo {
+    color: $DarkColor;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer-content__logo {
+    color: $PrimaryLight;
+    text-decoration: none;
+    font-family: Raleway,
+        sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.main-nav__logo--world {
+    color: $AccentColor;
+}
+
+.footer-content__logo--world {
+    color: $AccentColor;
+}
