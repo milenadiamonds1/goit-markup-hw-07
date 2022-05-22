@@ -331,6 +331,10 @@ h6 {
   height: 70px;
 }
 
+body {
+  color: blue;
+}
+
 .photos-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -410,7 +414,7 @@ h6 {
 }
 
 .team__title {
-  color: var(--dark-color);
+  color: #212121;
   font-family: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -422,7 +426,7 @@ h6 {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--primary-middle);
+  color: #757575;
   margin: 0;
   margin-bottom: 16px;
 }

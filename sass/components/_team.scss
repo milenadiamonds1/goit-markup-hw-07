@@ -22,7 +22,7 @@
     padding-bottom: 30px;
 }
 .team__title {
-    color: var(--dark-color);
+    color: $DarkColor;
     font-family: 500;
     font-size: 16px;
     line-height: 1.2;
@@ -33,7 +33,7 @@
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: var(--primary-middle);
+    color: $PrimaryMiddle;
     margin: 0;
     margin-bottom: 16px;
 }
