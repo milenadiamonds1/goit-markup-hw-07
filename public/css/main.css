@@ -1135,3 +1135,7 @@ h6 {
   padding: 63px 24px;
   margin: 0;
 }
+
+body {
+  color: red;
+}
