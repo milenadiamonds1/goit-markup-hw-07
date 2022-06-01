@@ -5,7 +5,7 @@
     padding-bottom: 200px;
     background-color: $BackgroundDark;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-       url(/images/header.jpg);
+        url(/images/header.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,6 +25,7 @@
     margin-right: auto;
     margin-left: auto;
 }
+
 .banner__button {
     color: $PrimaryLight;
     background-color: $AccentColor;

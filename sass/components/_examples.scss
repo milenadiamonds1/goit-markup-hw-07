@@ -7,10 +7,12 @@
     margin-right: 30px;
     width: calc((100%-60px)/3);
     position: relative;
-        &:nth-child(3n){
-            margin-right: 0;
-        }
+
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
 }
+
 .photos-list__overlay {
     position: absolute;
     bottom: 0;
@@ -22,6 +24,7 @@
     align-items: center;
 
 }
+
 .photos-list__text {
     font-family: $Roboto;
     font-size: 14px;

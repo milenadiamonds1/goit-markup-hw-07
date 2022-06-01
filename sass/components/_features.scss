@@ -21,12 +21,15 @@
     margin: 0;
     color: $PrimaryMiddle;
 }
+
 .features__item {
     width: 270px;
-         &:not(:last-child){
+
+    &:not(:last-child) {
         margin-right: 30px;
     }
 }
+
 .features-icons {
     display: flex;
     width: 270px;
@@ -42,6 +45,7 @@
     width: 70px;
     height: 70px;
 }
-body{
+
+body {
     color: blue;
 }

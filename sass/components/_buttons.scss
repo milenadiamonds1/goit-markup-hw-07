@@ -3,8 +3,9 @@
     padding-bottom: 94px;
     display: flex;
 }
+
 .all-button {
-    background-color:$AccentColor;
+    background-color: $AccentColor;
     color: $PrimaryLight;
 }
 
@@ -21,16 +22,17 @@
     border: none;
     padding: 6px 22px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        &:hover,
-        &:focus{
-            background-color: $AccentColor;
-            color: $PrimaryLight;
-            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $AccentColor;
+        color: $PrimaryLight;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
             0px 1px 2px rgba(0, 0, 0, 0.08),
             0px 2px 2px rgba(209, 203, 203, 0.12);
-        }
+    }
 }
 
 .buttons-list {
@@ -42,7 +44,8 @@
 .buttons-list__item {
     display: flex;
     margin-right: 8px;
-     &:last-child{
-         margin-right: 0;
+
+    &:last-child {
+        margin-right: 0;
     }
 }
