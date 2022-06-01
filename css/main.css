@@ -86,8 +86,8 @@ h6 {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2F303A;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(/images/header.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/header.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -323,10 +323,6 @@ h6 {
 .features-icons__icon {
   width: 70px;
   height: 70px;
-}
-
-body {
-  color: blue;
 }
 
 .div-form {
@@ -918,7 +914,7 @@ body {
 .checkbox:checked + .checkbox__icon {
   background-color: #2196F3;
   background-origin: padding-box;
-  background-image: url(/images/vector1.svg);
+  background-image: url(../images/vector1.svg);
   background-size: contain;
   background-repeat: no-repeat;
   border-color: #2196F3;
